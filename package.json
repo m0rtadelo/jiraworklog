@@ -1,0 +1,19 @@
+{
+  "name": "jiraworklog",
+  "version": "1.0.0",
+  "description": "POC Jira worklog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jira",
+    "worklog"
+  ],
+  "author": "ricard.figuls@altran.com",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
