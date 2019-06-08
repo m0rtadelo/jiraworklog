@@ -1,10 +1,11 @@
 const jira = require('./jira-client');
+const config = require("./.config");
 
 async function main() {
-    const timestamp = + new Date('2019-06-01');
+    const timestamp = + new Date(config.since);
     const user = await jira.rest.getUser;
     let issue;
-    console.log('Getting worklogs for: ' + user.displayName);
+    console.log('Listing worklogs for: ' + user.displayName);
     
     const result = await jira.rest.getWorklogs(timestamp).catch(err => console.error(err));
     if(result && result.values){
