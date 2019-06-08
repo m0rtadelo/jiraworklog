@@ -1,7 +1,7 @@
 {
   "name": "jiraworklog",
-  "version": "1.0.0",
-  "description": "POC Jira worklog",
+  "version": "0.0.1",
+  "description": "Jira REST API POC to list worklogs for current user since defined date",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,10 @@
   },
   "keywords": [
     "jira",
-    "worklog"
+    "worklog",
+    "rest",
+    "api",
+    "timesheet"
   ],
   "author": "ricard.figuls@altran.com",
   "license": "ISC",
