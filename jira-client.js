@@ -1,5 +1,5 @@
 const request = require("request");
-const config = require("./config.hidden");
+const config = require("./.config");
 
 async function get(url) {
   return new Promise(function(resolve, reject) {
